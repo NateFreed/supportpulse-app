@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SupportPulse - AI Customer Support",
-  description: "AI chatbot + shared inbox for small teams. Flat pricing, no per-resolution fees. $29 per month.",
+  title: "SupportPulse - AI Customer Support for Small Businesses",
+  description: "AI chatbot trained on your knowledge base. Flat $29/mo — no per-resolution fees. 10x cheaper than Zendesk.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        {children}
+      </body>
     </html>
   );
 }
