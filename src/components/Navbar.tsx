@@ -17,6 +17,7 @@ export default function Navbar() {
     { href: '/inbox', label: 'Inbox' },
     { href: '/knowledge', label: 'Knowledge Base' },
     { href: '/analytics', label: 'Analytics' },
+    { href: '/settings', label: 'Settings' },
   ];
 
   return (

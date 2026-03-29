@@ -16,6 +16,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SupportPulse - AI Customer Support for Small Businesses",
   description: "AI chatbot trained on your knowledge base. Flat $29/mo — no per-resolution fees. 10x cheaper than Zendesk.",
+  openGraph: {
+    title: "SupportPulse - AI Customer Support",
+    description: "AI chatbot trained on your knowledge base. Flat $29/mo.",
+    type: "website",
+    siteName: "SupportPulse",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SupportPulse - AI Customer Support",
+    description: "AI chatbot trained on your knowledge base. Flat $29/mo.",
+  },
+  keywords: ["customer support", "AI chatbot", "help desk", "knowledge base", "ticket management", "small business support"],
 };
 
 export default function RootLayout({
